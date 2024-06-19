@@ -65,7 +65,7 @@ Pastikan Anda telah menginstal:
     ?>
     ```
 
-3. Jalankan server PHP:
+4. Jalankan server PHP:
     ```sh
     php -S localhost:8000 -t portfi
     ```
@@ -80,24 +80,59 @@ Aplikasi akan berjalan di `http://localhost:8000`.
 
 ## Struktur Proyek
 
-```portfi.online/
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── views/
-│   ├── config.php
-│   └── ...
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ...
-├── README.md
-└── ...
+```└── 📁Main
+    └── README.md
+    └── 📁src
+        └── 📁assets
+            └── 📁css
+                └── style.css
+            └── 📁fonts
+                └── 📁fontawesome
+            └── 📁images
+                └── app.png
+                └── favicon.html
+                └── loading.html
+            └── 📁img
+                └── 📁bg
+                    └── hero_bg.jpg
+                    └── inner_bg.jpg
+            └── 📁js
+                └── main.js
+                └── 📁vendor
+        └── coming_soon.php
+        └── 📁dashboard
+            └── config.php
+            └── index.js
+            └── index.php
+            └── login.php
+            └── logout.php
+            └── 📁model
+                └── portoModel.php
+                └── userModel.php
+            └── register.php
+            └── router.php
+            └── 📁view
+                └── dashboard.php
+                └── detailPorto.php
+                └── educationList.php
+                └── experienceList.php
+                └── Features.php
+                └── infoPorto
+                └── infoPorto.php
+                └── porto
+                └── PortoDetail.php
+                └── portoList.php
+                └── serviceList.php
+                └── skillList.php
+                └── socialPorto.php
+                └── workList.php
+                └── workPorto.php
+        └── footer.php
+        └── index.php
+        └── logo.png
+        └── 📁Template
+            └── 📁FirstTemplate
+            └── 📁SecondTemplate
 ```
 
 ## Kontribusi
