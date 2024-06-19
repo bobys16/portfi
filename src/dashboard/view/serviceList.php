@@ -4,7 +4,7 @@
          <div class="card-header d-flex flex-row justify-content-between py-15px">
             <div class="d-flex flex-column">
                <div class="fw-bold fs-16px">Service List</div>
-               <p class="text-theme">* You can only view your service only. add, delete and edit will be implement on the next update. ( Dummy Data )</p>
+               <p class="text-theme">* You can only view your Service List only. add, delete and edit will be implement on the next update. ( Dummy Data )</p>
             </div>
             <a href="#" data-toggle="card-expand" class="text-white text-opacity-50 text-decoration-none">
                <i class="bi bi-fullscreen"></i>
