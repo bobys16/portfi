@@ -1,10 +1,10 @@
 
   ///////////////////////////////////////////////////////////////
-//                                                           //
-//              JQUERY NATIVE FRAMEWORK                      //
-//                  Author: BibElz                           //
-//           Version 2.0.1 LTS (27-06-2021)                  //
-//                                                           //
+//                                                	           //
+//              JQUERY NATIVE FRAMEWORK                        //
+//                  Author: BibElz (Bibob Elzgar)              //
+//           Version 2.0.1 LTS (27-06-2024)                    //
+//                                                             //
 ///////////////////////////////////////////////////////////////
 
     /// Local Storage define token and frontend authentication
@@ -46,10 +46,10 @@
                     if (res.next_action !== null) {
                         setTimeout(function() {
                             location.replace(res.next_action);
-                        }, 3000);
+                        }, 4100);
                     }                    
 					if(res.next_view !== null) {
-						setTimeout(function(){ $('[view="true"][path="'+res.next_view+'"]').click() },3000);
+						setTimeout(function(){ $('[view="true"][path="'+res.next_view+'"]').click() }, 4100);
 					}
 					
 					let Swalled = {
