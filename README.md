@@ -72,8 +72,7 @@ Aplikasi akan berjalan di `http://localhost:8000`.
 
 ## Struktur Proyek
 
-\`\`\`
-portfi.online/
+```portfi.online/
 ├── backend/
 │   ├── controllers/
 │   ├── models/
@@ -90,8 +89,7 @@ portfi.online/
 │   │   ├── index.js
 │   │   └── ...
 ├── README.md
-└── ...
-\`\`\`
+└── ...```
 
 ## Kontribusi
 
