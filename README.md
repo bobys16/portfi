@@ -151,4 +151,4 @@ Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) unt
 
 ## Additional Note for Dicoding Team
 
-Untuk Repository ini adalah respository baru, Untuk yang lama harus dihapus dikarenakan saya mendapati ada file atau bariscode yang berisikan kredensial server dan juga Cloudflare akun. Jadi saya re-create repository baru. Mohon untuk dimaklumi terimakasih <3
+Untuk Repository ini adalah respository baru, Untuk yang lama harus dihapus dikarenakan saya mendapati email dari gitGuardian bahwa ada file atau bariscode yang berisikan kredensial server dan juga Cloudflare akun (src/dashboard/config.php), Jadi saya re-create repository baru. Mohon untuk dimaklumi terimakasih <3
