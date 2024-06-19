@@ -105,3 +105,7 @@ Kami menyambut kontribusi dari siapa saja. Untuk berkontribusi, silakan fork rep
 ## Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
+## Additional Note for Dicoding Team
+
+Untuk Repository ini adalah respository baru, Untuk yang lama harus dihapus dikarenakan saya mendapati ada file atau bariscode yang berisikan kredensial server dan juga Cloudflare akun. Jadi saya re-create repository baru. Mohon untuk dimaklumi terimakasih <3
