@@ -89,7 +89,8 @@ Aplikasi akan berjalan di `http://localhost:8000`.
 │   │   ├── index.js
 │   │   └── ...
 ├── README.md
-└── ...```
+└── ...
+```
 
 ## Kontribusi
 
