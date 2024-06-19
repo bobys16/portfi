@@ -33,7 +33,7 @@ include "config.php";
                      <div class="d-flex">
                         <label class="form-label">Password <span class="text-danger">*</span>
                         </label>
-                        <a href="forgot" class="ms-auto text-white text-decoration-none text-opacity-50">Forgot password?</a>
+                        <a onclick="alert('function will be implement later!');" class="ms-auto text-white text-decoration-none text-opacity-50">Forgot password?</a>
                      </div>
                      <input type="password" class="form-control form-control-lg bg-white bg-opacity-5" name="password" placeholder="Passsword" required <?= $db_status == false ? "disabled" : "" ?>/>
                   </div>
