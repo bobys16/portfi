@@ -38,22 +38,30 @@ Pastikan Anda telah menginstal:
 1. Klon repositori ini:
     ```sh
     git clone https://github.com/bobys16/portfi.git
-    cd portfi.online
+    cd portfi.online/src
     ```
 
 2. Buat database MySQL dan sesuaikan pengaturan koneksi di `dashboard/config.php`:
     ```php
     <?php
-    $db_host = 'localhost';
-    $db_user = 'root';
-    $db_pass = 'password';
-    $db_name = 'portfi_db';
-
-    $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
-
-    if ($conn->connect_error) {
-        die("Connection failed: " . $conn->connect_error);
+    $connect = mysqli_connect('localhost','user','password','database');
+    $db_status = true;
+    if (!$connect) {
+        $db_status = false;
     }
+    ?>
+    ```
+
+3. Asumsikan anda sudah mempunyai domain yang terhubung dengan Cloudflare dan cPanel hosting. lalu rubah juga pengaturan di `dashboard/config.php`:
+    ```php
+    <?php
+    $cpanelUsername = 'cpanelUsername';
+    $cpanelPassword = 'cpanelPassword';
+    $cloudflareApiKey = 'cloudflareApiKey';
+    $cloudflareEmail = 'cloudflareEmail';
+    $cloudflareZoneID = 'cloudflareZoneID';
+    $domain = 'portfi.online'; // Change your main domain
+    $ipAddress = 'ipAddress'; // Ip address of your cPanel
     ?>
     ```
 
