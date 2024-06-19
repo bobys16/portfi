@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# If the requested filename is not a directory
+RewriteCond %{REQUEST_FILENAME} !-d
+# If the requested filename is not a file
+RewriteCond %{REQUEST_FILENAME} !-f
+# Rewrite to add .php extension if it doesn't already have a file extension
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Handle .html requests by rewriting to .php
+RewriteRule ^(.*)\.html$ $1.php [NC,L]
