@@ -41,13 +41,7 @@ Pastikan Anda telah menginstal:
     cd portfi.online
     ```
 
-2. Instal dependensi backend dengan Composer:
-    ```sh
-    cd backend
-    composer install
-    ```
-
-3. Buat database MySQL dan sesuaikan pengaturan koneksi di `backend/config.php`:
+2. Buat database MySQL dan sesuaikan pengaturan koneksi di `dashboard/config.php`:
     ```php
     <?php
     $db_host = 'localhost';
@@ -63,16 +57,16 @@ Pastikan Anda telah menginstal:
     ?>
     ```
 
-4. Jalankan server PHP:
+3. Jalankan server PHP:
     ```sh
-    php -S localhost:8000 -t backend
+    php -S localhost:8000 -t portfi
     ```
 
-Aplikasi akan berjalan di `http://localhost:3000`.
+Aplikasi akan berjalan di `http://localhost:8000`.
 
 ## Penggunaan
 
-1. Buka browser Anda dan navigasi ke `http://localhost:3000`.
+1. Buka browser Anda dan navigasi ke `http://localhost:8000`.
 2. Buat akun baru atau login dengan akun yang sudah ada.
 3. Mulai membuat dan mengelola portofolio Anda!
 
